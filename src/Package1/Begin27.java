@@ -1,0 +1,13 @@
+package Package1;
+
+import java.util.Scanner;
+
+public class Begin27 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        System.out.println(Math.pow(a,2));
+        System.out.println(Math.pow(a,4));
+        System.out.println(Math.pow(a,8));
+    }
+}
